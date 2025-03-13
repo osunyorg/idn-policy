@@ -11,8 +11,8 @@ en:
 
   permalinks:
     pages_categories: /:slug/
-    projects: /projects/:year-:slug/
-    projects_categories: /projects/:slug/
+    projects: /policies/:year-:slug/
+    projects_categories: /policies/:slug/
   taxonomies:
     administrator: administrators
     author: authors
