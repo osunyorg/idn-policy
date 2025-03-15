@@ -1,0 +1,31 @@
+blocks:
+  projects:
+    title: Policies
+categories:
+  no_project: No policies in this category
+  type:
+    projects_categories: Policies categories
+persons:
+  backlinks:
+    events: Events mentioning
+    pages: Pages mentioning
+    posts: Posts mentioning
+    projects: Projects mentioning
+projects:
+  author: Author
+  authors: "Authors"
+  count:
+    one: "1 policy"
+    other: "{{ .Count }} policies"
+  informations: Informations
+  next: Next policy
+  next_aria: Next policy “{{ .Title }}”
+  none: No policy
+  previous: Previous policy
+  previous_aria: Previous policy “{{ .Title }}”
+  reading_time: Reading time
+  see_all: See all posts
+  see_all_in_program: See all program's policies
+  see_all_in_category: See all policies in “{{ .Title }}”
+  title: Policies
+  year: Year
