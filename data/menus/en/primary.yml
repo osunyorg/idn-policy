@@ -9,12 +9,12 @@ items:
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Policies
-  target: "/policies/"
+  target: "/degrowth-policies/"
   kind: page
   new_tab: false
   children: []
-  path: "/projects"
-  file: content/en/projects/_index.html
+  path: "/pages/degrowth-policies"
+  file: content/en/pages/degrowth-policies/_index.html
 - title: Resources
   target: "/resources/"
   kind: page
@@ -29,11 +29,4 @@ items:
   children: []
   path: "/pages/faq"
   file: content/en/pages/faq/_index.html
-- title: Policies
-  target: "/degrowth-policies/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/degrowth-policies"
-  file: content/en/pages/degrowth-policies/_index.html
 
