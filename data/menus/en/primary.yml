@@ -29,4 +29,11 @@ items:
   children: []
   path: "/pages/faq"
   file: content/en/pages/faq/_index.html
+- title: Policies
+  target: "/degrowth-policies/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/degrowth-policies"
+  file: content/en/pages/degrowth-policies/_index.html
 
