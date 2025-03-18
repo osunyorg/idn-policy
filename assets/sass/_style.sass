@@ -1,0 +1,11 @@
+.projects
+    &--grid
+        @include media-breakpoint-up(desktop)
+            grid-template-columns: repeat(3, 1fr)
+    &__page
+        @include media-breakpoint-up(desktop)
+            .hero--with-image
+                figure
+                    width: columns(4)
+                .hero-text
+                    width: columns(8)
