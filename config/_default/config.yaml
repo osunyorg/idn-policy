@@ -2,7 +2,7 @@ theme: osuny
 _merge: deep
 params:
   summary:
-    position: hero
+    position: content
   search:
     active: true
   logo:
