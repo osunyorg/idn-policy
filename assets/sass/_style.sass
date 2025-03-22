@@ -9,7 +9,13 @@
                     width: columns(4)
                 .hero-text
                     width: columns(8)
-    
+.project
+    .project-content
+        .project-subtitle
+            @include body-text
+            font-weight: bold
+            margin-bottom: $spacing-2
+
 .block-siblings-navigation
     @include media-breakpoint-up(desktop)
         margin-top: $spacing-6 !important
@@ -22,7 +28,7 @@
             span
                 @include body-text
                 color: $color-text
-                font-weight: normal
+                font-weight: bold
                 margin-top: $spacing-3
 
 .block-call_to_action
