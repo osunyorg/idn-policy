@@ -1,18 +1,18 @@
 ---
 title: Main menu
 items:
+- title: Policies
+  target: "/degrowth-policies/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/degrowth-policies"
+  file: content/en/pages/degrowth-policies/_index.html
 - title: About
   target: "/about/"
   kind: page
   new_tab: false
-  children:
-  - title: Policies
-    target: "/degrowth-policies/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/degrowth-policies"
-    file: content/en/pages/degrowth-policies/_index.html
+  children: []
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: FAQ
