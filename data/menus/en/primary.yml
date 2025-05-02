@@ -5,14 +5,7 @@ items:
   target: "/about/"
   kind: page
   new_tab: false
-  children:
-  - title: Key Policies
-    target: "/key-policies/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/key-policies"
-    file: content/en/pages/key-policies/_index.html
+  children: []
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Policies
