@@ -5,16 +5,16 @@ items:
   target: "/about/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Policies
+    target: "/degrowth-policies/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/degrowth-policies"
+    file: content/en/pages/degrowth-policies/_index.html
   path: "/pages/about"
   file: content/en/pages/about/_index.html
-- title: Policies
-  target: "/degrowth-policies/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/degrowth-policies"
-  file: content/en/pages/degrowth-policies/_index.html
 - title: FAQ
   target: "/faq/"
   kind: page
