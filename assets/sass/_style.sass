@@ -2,6 +2,14 @@
     @include media-breakpoint-up(desktop)
         .hero-text
             width: 100%
+.hero
+    .hero-text
+        h1
+            span
+                @include body-text
+                color: $color-text
+                font-weight: bold
+                margin-top: $spacing-3    
 .projects
     &--grid
         @include media-breakpoint-up(desktop)
@@ -26,16 +34,23 @@
     .siblings-navigation
         border-top: none
 
-.hero
-    .hero-text
-        h1
-            span
-                @include body-text
-                color: $color-text
-                font-weight: bold
-                margin-top: $spacing-3
 
 .block-call_to_action
     margin-top: calc(-1 * (#{$block-space-y})) !important
     @include in-page-without-sidebar
         margin-top: calc(-1 * (#{$block-space-y-desktop})) !important
+
+.page__home
+    .block-image
+        figure
+            position: relative
+            figcaption
+                position: absolute
+                max-width: columns(6)
+                bottom: 0
+                right: var(--grid-gutter-negative)
+                background: $color-background
+                padding: 6px 8px 8px 
+                .credit
+                    p
+                        line-height: 110%
